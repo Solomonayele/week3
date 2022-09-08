@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+          integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="feedback-styles.css" type="text/css">
+</head>
+<body class="m-3" >
+
+
+
+
+<div class="jumbotron">
+    <h1> As one of our students your thoughts, comments and feedback are very important to us.!</h1>
+</div>
+
+<div class="row">
+
+
+    <div class="ml-5 col-md-7">
+        <p> As one of our students your thoughts, comments and feedback are very important to us.</p>
+        <p> Please use this form to send your feedback. </p>
+        <p> if you would like a response, please include your contact information  </p>
+
+    </div>
+
+    <div class="col-md-5">
+
+        <form class="mx-5">
+
+            <br> <label id="name">Name </label> <input name="name" class="form-control">
+            <br> <label for="email">Email </label> <input id="email" class="form-control">
+            <br> <label for="comments">Comments </label>
+            <br> <textarea id="comments" class="form-control" required></textarea>
+
+            <br> Are you a current student?</br>
+            <div class=" form- check">
+                <input id="yes" name="current_student" class="form-check-inpit" type="radio" required >
+                <label for="yes" class="form-check-label">  Yes </label>
+            </div>
+
+            <div class="form-check" >
+                <input id="no" name="current_student" class="form-check-input" type="radio" required>
+                <label for="no" class="form-check-label"> No </label>
+            </div>
+
+            <div>
+                <input type="submit" class="btn btn-success mt-4" >
+            </div>
+        </form>
+
+
+    </div>
+
+
+</div>
+
+</body>
+</html>
