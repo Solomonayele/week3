@@ -1,0 +1,15 @@
+.jumbotron{
+    background-color: #a666e7;
+    text-align: center;
+
+}
+body{
+    background-color: wheat;
+
+}
+.col-md-5{
+    font-size: 20px;
+    font-style: italic;
+    border: 14px #068383 solid;
+    padding: 30px;
+}

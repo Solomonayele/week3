@@ -1,0 +1,37 @@
+body{
+    color: #088296;
+    font-size: 23px;
+    background-color: black;
+}
+.jumbotron{
+    font-size: 35px;
+    text-align: center;
+    background-color: #a666e7;;
+    color: #0362f3;
+}
+
+.githubblink{
+    font-size:40px ;
+    font-style: italic;
+    color: #71e7e7;
+}
+.picture{
+    color: #9eefe2;
+    font-size: 300px;
+
+}
+
+.list{
+    border: 15px #89eeff ridge;
+    padding: 70px;
+
+}
+.code1{
+    color: #71e7e7;
+}
+.col-md-5{
+    font-size: 20px;
+    font-style: italic;
+    border: 14px #068383 solid;
+    padding: 30px;
+}

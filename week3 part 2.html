@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="lab3-styles.css">
+</head>
+<body>
+
+
+<div class="jumbotron">
+  <h1> lab 3 Part 4b</h1>
+</div>
+
+<div class="col-md-5">
+  <form class="mx-10">
+    <br><label for="Name">Name</label><input id="Name" class="form-control" maxlength="70" required>
+    <br><label for="Email">Email</label> <input id="Email" class="form-control" required>
+    <br> <label for="password">password </label> <input id="password" class="form-control" required>
+
+
+    <p> what kind of T-shirt size </p>
+    <select required>
+      <option  >small</option>
+      <option>medium</option>
+      <option>large</option>
+    </select><br>
+    <br> Date of birth <input type="date" required>
+
+    <br> Receive email updates<input type="checkbox">
+
+    <br> <p>select if wanting to receive email from conference sponsors</p>
+    <br> <input id="yes" name="solomon" type="radio" required>
+    <label for="yes">Yes</label>
+    <input id="no" name="solomon" type="radio" required>
+    <label for="no">No</label >
+    <div>
+      <p> select if  you want attending the morning or afternoon</p>
+      <input name="Morning or afternoon " type="radio"> Morning
+      <input  name="Morning or afternoon " type="radio"> afternoon
+    </div>
+
+    <br> Special Requests <input name="Special Requests" class="form-control" type="text" size="7" >
+
+    <br>  <input name="submit"  type="submit" class="btn btn-success" >
+
+  </form>
+</div>
+
+</body>
+</html>
